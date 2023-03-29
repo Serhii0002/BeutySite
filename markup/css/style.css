@@ -1,0 +1,413 @@
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+header {
+    text-align: center;
+}
+
+.stripes {
+    background: #E5E5E5;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu {
+    margin: 0;
+    padding: 16px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.menu li a {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0 13px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    padding: 19px 0 0 2px;
+}
+
+.logo a {
+    display: inline-block;
+}
+
+.logo p {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 20px;
+    letter-spacing: 0.1em;
+}
+
+.phone {
+    float: right;
+    margin: 50px 4px 0 0;
+}
+
+.number {
+    margin: 0 38px 0 0;
+    text-decoration: none;
+}
+
+.call_back {
+    padding: 10px 55px;
+    text-align: center;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.service {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.service li {
+    text-align: center;
+    display: inline-block;
+    color: #333333;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 30px 20px 30px 17px;
+}
+
+main {
+    overflow: hidden;
+    background:#E5E5E5;
+}
+
+.background {
+    background-image: url(../img/super-chair.png);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-color: #F13C6E;
+    overflow: hidden;
+    height: auto;
+}
+
+.box_back {
+    margin-bottom: 193px;
+    max-width: 260px;
+    margin-top: 190px;
+    text-align: left;
+}
+
+.box_back h2 {
+    margin: 0 0 40px 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.box_back p {
+    margin: 0 0 28px 0;
+}
+
+.more_btn {
+    display: inline-block;
+    padding: 11px 50px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+.back_list {
+    padding: 0 0 78px;
+    background: #E5E5E5;
+}
+
+.container>h2 {
+    float: left;
+    padding: 57px 0 20px 7px;
+    margin: 22px 21px 20px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.box_photo {
+    width: 255px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list>li {
+    
+    display: inline-block;
+    margin: 0 11px;
+    background-color: #FFFFFF;
+    width: 255px;
+}
+
+.box_photo img {
+    width: 125px;
+    height: auto;
+    padding: 25px 0 0;
+}
+
+.box_photo h4 {
+    margin: 13px 10px 38px 0;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.box_photo p {
+    margin: 0 0 15px 0;
+}
+
+.box_photo>a {
+    margin: 0 0 22px 0;
+}
+
+.box {
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+
+.bonus {
+    float: left;
+    background: #F13C6E;
+    display: inline-block;
+    margin: 0;
+    width: 49%;
+}
+
+.mail {
+    float: left;
+    text-align: left;
+    width: 48%;
+    display: inline-block;
+    margin: 18px 0 0 46px;
+}
+
+.mail h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.mail p {
+    margin: 0 0 25px 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.mail form input {
+    padding: 8px 19px 8px 22px;
+    border-radius: 30px;
+    margin-bottom: 33px;
+}
+
+.photo_envelope {
+    display: inline-block;
+    padding: 55px 0 0;
+}
+
+.photo_car {
+    display: inline-block;
+    padding: 55px 50px 0 0;
+}
+
+.visit {
+    float: right;
+    background: #F13C6E;
+    display: inline-block;
+    width: 49%;
+    margin: 0 0 100px 0;
+}
+
+.btn_Store_map {
+    padding: 9px 48px;
+    margin: 0 0 33px 0;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    background: #F13C6E;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+}
+
+table {
+    background: #FFFFFF;
+    max-width: 100%;
+    height: 357x;
+}
+
+td {
+    width: 278px;
+    height: 119px;
+    border: 1px solid rgb(184, 180, 180);
+}
+
+.wite_fon {
+    padding: 45px 0 0;
+    background: #d0cfcf;
+}
+
+.colum {
+    display: inline-block;
+    list-style: none;
+    padding: 0 0 0 7px;
+    margin: -2px;
+    width: calc(100%/4);
+}
+
+.colum p {
+    text-align: left;
+    margin: 19px 0 21px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+}
+
+.colum ul {
+    margin: 26px 0 42px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.colum ul li {
+    text-align: left;
+}
+
+.colum ul li a {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+}
+
+.footer_phone {
+    float: right;
+    margin: 42px 0 50px;
+}
+
+.icon {
+    float: left;
+    padding: 26px 0 0;
+}
+
+.you {
+    display: inline-block;
+    padding: 0 5px 0 0;
+}
+
+.face {
+    display: inline-block;
+    padding: 0 5px 0 0;
+}
+
+.inst {
+    display: inline-block;
+}
+
+.you a {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    width: 46px;
+    height: 45px;
+    margin: 0 5px 0px 5px;
+}
+
+.you a img {
+    padding: 14px 2px 0px 2px;
+}
+
+.face a {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    width: 46px;
+    height: 45px;
+    margin: 0 5px 0px 5px;
+}
+
+.face a img {
+    padding: 14px 2px 0px 2px;
+}
+
+.inst a {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #F13C6E;
+    border-radius: 50%;
+    background: #FFFFFF;
+    font-size: 14px;
+    line-height: 16px;
+    width: 46px;
+    height: 45px;
+    margin: 0 5px 0px 5px;
+}
+
+.inst a img {
+    padding: 14px 2px 0px 2px;
+}
+
+.best_store {
+   float: left;
+}
+
+.privacy_policy {
+    float: right;
+}
